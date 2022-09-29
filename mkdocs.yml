@@ -1,0 +1,27 @@
+site_name: 为你定制的计算机导论
+theme: 
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  alternate:
+    - name: 简体中文
+      link: /
+      lang: zh
+    - name: Engilish
+      link: /en/
+      lang: en
